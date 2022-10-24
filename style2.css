@@ -157,7 +157,7 @@ section img {
 
 #splash {
 	height: 75vh;
-	background-image: url("./images/house.png");
+	background-image: url("house.png");
 	background-size: cover;
 
 
