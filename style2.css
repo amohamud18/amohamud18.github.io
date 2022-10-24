@@ -77,6 +77,8 @@ li {
 	font-size: 16px;
 	font-weight: 400;
 	color: #fff;
+	text-decoration-style: none;
+	list-style: none;
 
 
 }
