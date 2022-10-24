@@ -1,0 +1,81 @@
+/* OUR STYLE FILE: A CSS SHEET */
+
+.columns {
+	float: left;
+	width: 300px;
+	height: 400px;
+	margin-left: 50px;
+	padding-left: 20px;
+	text-align: center;
+
+}
+
+header h1 {
+margin: auto;
+padding: 50px 0px 50px 30px;
+background-color: lightgray;
+border-color: blue;
+border-style: solid;
+border-width: 10px;
+
+}
+
+
+section img {
+
+	padding-top: 20px;
+}
+
+.about {
+	display: grid;
+	grid-template-columns: 200px 700px;
+	column-gap: 30px;
+	margin-left: 30px;
+
+
+
+}
+
+
+.adoptnow {
+	border-radius: 30px;
+	border-color: yellow;
+	border-style: solid;
+	padding: 20px 10px 20px 10px;
+	margin-left: 450px;
+	background-color: yellow;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+
+#splash {
+	height: 85vh;
+	background-image: url("../images/hero1.jpg");
+	background-size: cover;
+
+
+}
+
+#splashcontent {
+
+	margin-top: 300px;
+}
+
+
+#windowbox {
+	border-style: solid;
+	border-color: blue;
+	border-width: 5px;
+	background-color: white;
+
+
+
+}
+
+}
+
+
+
+
+}

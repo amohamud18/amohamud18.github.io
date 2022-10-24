@@ -1,0 +1,212 @@
+/* OUR STYLE FILE: A CSS SHEET 
+
+border color:#448FFF ;
+background color: ;
+window background color: ;
+
+
+
+
+
+
+*/
+
+
+@font-face {
+    font-family: "Apple Kid";
+    src: url("./Fonts/apple_kid.ttf");
+}
+
+.columns {
+	float: left;
+	width: 280px;
+	height: 400px;
+	margin-left: 25px;
+	padding-left: 10px;
+	text-align: center;
+	margin-top: 100px;
+
+
+}
+
+
+h1 
+{
+
+}
+
+
+.logo {
+	
+	float: left;
+	width: 420px;
+	height: 50px;
+	padding-top: 20px; 
+
+}
+
+.leftalign {
+	float: left;
+	
+
+
+}
+
+.rightalign {
+	float: right;
+	margin-top: 20px;
+}
+
+li {
+	display: inline;
+	margin-right: 20px;
+}
+
+
+.nav-link {
+	margin-top: 200;
+	margin-bottom: 0;
+	text-decoration-style: none;
+	list-style: none;
+	padding-right: 75px;
+
+}
+
+.nav-link a {
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+
+
+}
+
+header h1 {
+margin: auto;
+padding: 50px 0px 50px 30px;
+background-color: #448FFF;
+border-color: #448FFF;
+border-style: solid;
+border-width: 10px;
+color: white;
+font-family: "Apple Kid";
+
+
+}
+
+header h1 img {
+
+	margin-right: 20px;
+	width: 5%;
+}
+
+
+section img {
+
+	padding-top: 20px;
+}
+
+.about {
+	display: grid;
+	grid-template-columns: 200px 600px;
+	column-gap: 70px;
+	margin-left: 50px;
+	margin-top: 30px;
+
+
+
+}
+
+#aboutwindow {
+	border-style: solid;
+	border-color: #448FFF;
+	border-width: 5px;
+	padding: 20px;
+	background-color: white;
+	width: 200px;
+	height: 400px;
+	position: relative;
+	top: 20px;
+	
+
+
+}
+
+
+.adoptnow {
+	border-radius: 30px;
+	border-style: solid;
+	border-color: #448FFF;
+	border-width: 5px;
+	
+	color: #448FFF;
+	padding: 20px 20px 20px 20px;
+	margin: 0px 0px 0px 0px;
+	background-color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.adoptnow:hover{
+	background-color:#448FFF ;
+	color: white;
+
+
+}
+
+
+#splash {
+	height: 75vh;
+	background-image: url("./images/house.png");
+	background-size: cover;
+
+
+}
+
+
+#splash h1 {
+	padding: 35px 0px 25px 0px;
+}
+
+.splashcontent {
+
+	margin: 0 auto;
+}
+
+.splashwindow {
+	border-style: solid;
+	border-color: #448FFF;
+	border-width: 10px;
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+	width: 700px;
+	height: 200px;
+	text-align: center;
+
+
+}
+
+.splashwindow h1 {
+	font-family: "Apple Kid";
+
+}
+
+
+#windowbox {
+	border-style: solid;
+	border-color: #448FFF;
+	border-width: 5px;
+	background-color: white;
+
+
+
+}
+
+}
+
+
+
+
+}
