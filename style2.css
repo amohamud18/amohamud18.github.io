@@ -14,7 +14,7 @@ window background color: ;
 
 @font-face {
     font-family: "Apple Kid";
-    src: url("./Fonts/apple_kid.ttf");
+    src: url("apple_kid.ttf");
 }
 
 .columns {
