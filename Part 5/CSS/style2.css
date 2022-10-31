@@ -1,0 +1,304 @@
+/* OUR STYLE FILE: A CSS SHEET 
+
+border color:#448FFF ;
+background color: ;
+window background color: ;
+
+
+
+
+
+
+*/
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+</style>
+
+@font-face {
+    font-family: "Apple Kid";
+    src: url("./Fonts/apple_kid.ttf");
+}
+
+.columns {
+	float: left;
+	width: 280px;
+	height: 400px;
+	margin-left: 25px;
+	padding-left: 10px;
+	text-align: center;
+	margin-top: 100px;
+
+
+}
+
+
+h1 
+{
+
+}
+
+
+.logo {
+	
+	float: left;
+	width: 420px;
+	height: 50px;
+	padding-top: 20px; 
+
+}
+
+.leftalign {
+	float: left;
+	
+
+
+}
+
+.rightalign {
+	float: right;
+	margin-top: 20px;
+}
+
+li {
+	display: inline;
+	margin-right: 20px;
+}
+
+
+.nav-link {
+	margin-top: 200;
+	margin-bottom: 0;
+	text-decoration-style: none;
+	list-style: none;
+	padding-right: 75px;
+
+}
+
+.nav-link a {
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+
+
+}
+
+header h1 {
+margin: auto;
+padding: 50px 0px 50px 30px;
+background-color: #448FFF;
+border-color: #448FFF;
+border-style: solid;
+border-width: 10px;
+color: white;
+font-family: 'Press Start 2P';
+font-size:  20px;
+
+
+}
+
+header h1 img {
+
+	margin-right: 20px;
+	width: 5%;
+}
+
+
+section img {
+
+	padding-top: 20px;
+}
+
+.about {
+	display: grid;
+	grid-template-columns: 200px 600px;
+	column-gap: 70px;
+	margin-left: 50px;
+	margin-top: 30px;
+
+
+
+
+}
+
+.about h2 {
+
+	font-family: 'Press Start 2P';
+}
+
+#aboutwindow {
+	border-style: solid;
+	border-color: #448FFF;
+	border-width: 5px;
+	padding: 20px;
+	background-color: white;
+	width: 200px;
+	height: 400px;
+	position: relative;
+	top: 20px;
+	
+
+
+}
+
+#aboutwindow h2 {
+
+	font-family: 'Press Start 2P';
+}
+
+
+.adoptnow {
+	border-radius: 30px;
+	border-style: solid;
+	border-color: #448FFF;
+	border-width: 5px;
+	
+	color: #448FFF;
+	padding: 20px 20px 20px 20px;
+	margin: 0px 0px 0px 0px;
+	background-color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Press Start 2P';
+}
+
+.adoptnow:hover{
+	background-color:#448FFF ;
+	color: white;
+
+
+}
+
+
+#splash {
+	height: 75vh;
+	background-image: url("../images/house.png");
+	background-size: cover;
+
+
+}
+
+
+#splash h1 {
+	padding: 35px 0px 25px 0px;
+}
+
+.splashcontent {
+
+	margin: 0 auto;
+}
+
+.splashwindow {
+	border-style: solid;
+	border-color: #448FFF;
+	border-width: 10px;
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+	width: 700px;
+	height: 200px;
+	text-align: center;
+
+
+}
+
+.splashwindow h1 {
+	font-family: 'Press Start 2P';
+
+}
+
+
+#windowbox {
+	border-style: solid;
+	border-color: #448FFF;
+	border-width: 5px;
+	background-color: white;
+
+
+
+}
+
+#windowbox h2 {
+
+	font-family: 'Press Start 2P';
+	font-size: 15px;
+}
+
+
+
+#page2window {
+	background-color: #ECE9D8;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #448FFF;
+	width: 800px;
+	height: 650px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+	
+}
+
+.p2columns {
+	display: grid;
+	grid-template-columns: 150px 550px;
+	height: 380px;
+	column-gap: 50px;
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-right: 15px;
+	background-color: white;
+
+}
+
+.p2box {
+	width: 750px;
+	height: 115px;
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+	font-family: 'Press Start 2P';
+
+}
+
+.p2columns button {
+width: 122px;
+padding: 20px;
+margin-top: 20px;
+margin-left: 20px;
+font-family: 'Press Start 2P';
+font-size: 10px;
+
+}
+
+header h3 {
+
+	background-color: #448FFF ;
+	height: 50px;
+	color: white;
+	font-family: 'Press Start 2P';
+	font-size: 20px;
+
+}
+
+.p2columns img {
+	padding-top: 0;
+
+
+}
+
+.dropdown_show {
+	width: 200px;
+}
+
+h3 img {
+	padding-top: 0px;
+}
+
+#actions {
+	width: 160px;
+	background-color:#448FFF ;
+}
