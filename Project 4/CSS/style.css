@@ -277,6 +277,14 @@ a.MNU2:hover {
 	background-color: #FED8AC;
 }
 
+#mission h3{
+	color: #6171FF;
+}
+
+#mission h4{
+	color: #6171FF;
+}
+
 #mapcolumn{
 	width: 350px;
 	height: 400px;
@@ -288,7 +296,7 @@ a.MNU2:hover {
 
 #map{
 	margin-left: 50px;
-	width: 626px;
+	width: 800px;
 	height: 400px;
 	float: left;
 
@@ -342,6 +350,10 @@ a.MNU2:hover {
 	height: 900px;
 	
 	
+}
+
+#seasonal h2 {
+	color: #6171ff;
 }
 
 #crayons {
@@ -453,6 +465,7 @@ a.MNU2:hover {
 #founder {
 	background-color: #FAC5C0 ;
 	height: 90vh;
+	margin-bottom: -50px;
 
 }
 
@@ -722,7 +735,7 @@ footer h4 {
 
 footer li {
 	text-align: center;
-	font-family: 'Poppins';
+	font-family: 'Bitter';
 	font-size: 14px;
 	padding-bottom: 5px;
 }
@@ -837,6 +850,7 @@ header ul {
 	height: 800px;
 	background-color: #FED8AC;
 }
+
 
 #mailinglist {
 	text-align: center;
