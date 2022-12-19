@@ -1,0 +1,854 @@
+/* Stylesheet for Little Ghost
+
+
+Colors: ;
+Blue:#6171ff
+Light Blue: #93C4FF
+Salmon Pink: #EF8D8A
+Pink: #FAC5C0
+Magenta: #F4628E
+Yellow: #FED8AC
+
+Blue Button Hover:  #74c3ff
+
+
+
+
+
+*/
+
+/* Visualizing the layout */
+
+
+
+
+
+
+/* This section is for universal selections and rules */
+
+/* box model Fix */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* clear Fix */
+
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+/* image rules */
+
+img {
+	width: 100%;
+}
+
+/* Type Hierarchy */
+
+
+
+body {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	background-image: url(../Images/backgroundpattern2.png);
+	background-size: cover;
+	
+}
+
+
+}
+
+
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	font-size: 4rem;
+	margin: 1;
+	/* we could also use font-size: 4rem; to get the same size. 
+	Ultimatley if we were building a site to be completely 
+	responsive then we would want to use this but I am going 
+	to use my Figma File as a refernce and they use absolute values
+	*/
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 4rem;
+	margin: 1;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 1.8rem;
+	margin: 0;
+}
+
+h4 {
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.8rem;
+	margin: 0;
+}
+
+
+p {
+	font-family: 'Bitter', serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.8rem;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Josefin Sans';
+}
+
+
+li{
+	list-style: none;
+
+}
+
+
+
+/* header styles and rules */
+
+header {
+	background-color: #EF8D8A;
+	color: #fff;
+	position: fixed;
+	height: 90px;
+	z-index: 4;
+	font-size: 0.7em;
+}
+
+.icon {
+	fill:  whitesmoke;
+}
+
+/* 
+header li {
+	float: left;
+	margin-left: 18px;
+}
+*/
+#logo a {
+	display: inline-block;
+	padding: 1rem;
+	max-width: 120px;
+	margin-top: -20px;
+}
+
+
+#search {
+	display: inline-block;
+	border-style: solid;
+	border-color: #fff;
+	margin-left: 10px;
+	padding: 1rem 20px;
+	border-radius: 30px;
+	width: 310px;
+}
+
+#search a {
+	line-height: 100px;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+
+/* homepage hero styles and rules */
+
+#hero {
+	background-image: url("../Images/herosplash.png");
+	background-size: cover;
+	background-color: gray;
+	height: 90vh;
+}
+
+
+
+#hero-chunk {
+	width: 400px;
+	color: #fff;
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+#hero-chunk p {
+	margin-bottom: 50px;
+}
+
+#hero h1 {
+	padding-bottom: 16px;
+}
+
+
+a.CTA {
+	background-color: #6171ff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	padding: 1em 2.5em;
+	border-radius: 2em;
+}
+
+a.CTA:hover {
+	background-color: #74c3ff;
+}
+
+a.navlinks {
+
+}
+
+
+
+a.MNU {
+	background-color: #6171ff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	padding: 1em 2.5em;
+	border-radius: 2em;
+	margin-top: 10px;
+}
+
+a.MNU2 {
+	float: left;
+	background-color: #6171ff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	padding: 1em 2.5em;
+	border-radius: 2em;
+	margin-top: 10px;
+}
+
+a.MNU:hover {
+	background-color: #74c3ff;
+
+
+
+}
+
+a.MNU2:hover {
+	background-color: #74c3ff;
+}
+
+
+
+	
+
+
+/* homepage mission statement styles and rules */
+
+
+#mission {
+	text-align: left;
+	color: #161616;
+	
+	margin-bottom: 160px;
+	height: 500px;
+	background-color: #FED8AC;
+}
+
+#mapcolumn{
+	width: 350px;
+	height: 400px;
+	margin-top: 80px;
+	float: left;
+	margin-left: 100px;
+
+}
+
+#map{
+	margin-left: 50px;
+	width: 626px;
+	height: 400px;
+	float: left;
+
+}
+
+#ourstory {
+	text-align: left;
+	color: #161616;
+	background-color: ;
+	margin-bottom: 300px;
+	height: 400px;
+	
+}
+
+#storyborder{
+	padding: 50px;
+	background-color: #FFF;
+	border-style: solid;
+	border-radius: 50px;
+	border-width: 5px;
+	border-color:#6171ff ;
+
+
+}
+
+#storysection{
+	display: grid;
+	grid-template-columns: 450px 300px;
+	margin-left: 100px;
+	margin-bottom: 300px;
+	height: 450px;
+	column-gap: 200px;
+
+
+}
+
+#storysection p {
+ 	margin-bottom: 50px;
+
+}
+
+#storysection h3 {
+	margin-bottom: 20px;
+}
+
+#seasonal {
+	text-align: center;
+	color: #161616;
+	background-color: #FED8AC;
+	margin-bottom: 160px;
+	height: 900px;
+	
+	
+}
+
+#crayons {
+	text-align: left;
+	color: #161616;
+	background-image: url("../Images/crayonsplash.png");
+	background-size: cover;
+
+	background-repeat: no-repeat;
+	background-color: gray;
+	margin-top: ;
+	height: 400px;
+	
+}
+
+#crayon-chunk {
+	width: 400px;
+	color: #fff;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+#crayon-chunk p {
+	margin-bottom: 30px;
+}
+
+#crayon-chunk h3 {
+	margin-bottom: 30px;
+}
+
+#mailinglist {
+	text-align: center;
+	color: #161616;
+	background-color: lightgray;
+	height: 350px;
+	margin-bottom: -50px;
+	background-image: url("../Images/newsletter2-06.png");
+	background-size: contain;
+	
+}
+
+#mail-chunk {
+	width: 400px;
+	color: #fff;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+
+#mail-chunk h3 {
+	margin-bottom: 50px;
+}
+
+#form-group
+
+#seasonal h2 {
+	padding-top: 50px;
+	margin-bottom: 50px;
+	color:  #6171ff ;
+}
+
+#seasonalmenu {
+
+	background-color: #FED8AC;
+	height: 600px;
+	margin-bottom: 100px;
+	padding-left: 150px;
+
+
+}
+
+#seasonalmenu a {
+
+	position: relative;
+	top: 100px;
+
+
+}
+
+#seasonalbox {
+	display: grid;
+	grid-template-columns: repeat(4, 250px);
+	text-align: center;
+	height: 250px;
+	color: white;
+
+}
+
+
+
+#boxcol1 {
+	background-color: #EF8D8A;
+}
+
+#boxcol2 {
+	background-color: #93C4FF;
+}
+
+#boxcol3 {
+	background-color: #FAC5C0;
+}
+
+#boxcol4 {
+	background-color: #6171ff;
+}
+
+/* About Page styles and rules*/
+
+#founder {
+	background-color: #FAC5C0 ;
+	height: 90vh;
+
+}
+
+.founderchunk {
+	margin-top: 1rem;
+	padding-top: 2rem;
+	float: left;
+	margin-right:50px;
+}
+
+.founderchunk h3 {
+	padding-bottom: 50px;
+	color: #6171ff ;
+	font-weight: 400;
+}
+
+.founderchunk h2 {
+	color: #6171ff ;
+
+}
+
+.founderchunk img {
+	border-radius: 30px;
+}
+
+#aboutstory {
+	text-align: left;
+	color: #161616;
+	background-color: ;
+	padding-top: 100px;
+	margin-bottom: 400px;
+	height: 300px;
+
+
+	
+}
+
+#storyborder2{
+	padding: 50px;
+	margin-left: 4rem;
+	margin-right: 2rem;
+	background-color: #FFF;
+	border-style: solid;
+	border-radius: 50px;
+	border-width: 5px;
+	border-color:#6171ff ;
+
+
+}
+
+#storyborder2 p {
+	margin-bottom: 50px;
+}
+
+#storyborder2 a {
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Menu/Product page styles and rules*/
+
+#ghostmenu {
+	height: 200px;
+	margin: 0 auto;
+}
+
+#ghostmenu img {
+	width: 30%;
+	height: auto;
+
+
+}
+
+#togglechunk{
+	display: flex;
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+	padding-top: 150px;
+
+}
+
+#ghostchunk{
+	display: flex;
+	background-position: contain;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+
+}
+
+#togglecenter {
+	margin: 0 auto;
+}
+
+#menuitems {
+	margin-top: 100px;
+}
+
+#menuitems h3 {
+	color: #F4628E;
+	margin-bottom: 30px;
+
+}
+
+#menuitems img {
+	width: 75px;
+	height: auto;
+}
+
+
+.menufloat {
+	float: left;
+	margin-right: 200px;
+	margin-bottom: 100px;
+}
+
+.menuitems img {
+	width: 75px;
+	height: auto;
+}
+
+.menufloat h3 {
+	color: #6171FF;
+}
+
+
+/* Crayon page styles and rules */
+
+#crayoncenter{
+	width: 600px;
+	margin: 0 auto;
+	padding-bottom: 150px;
+	padding-top: 100px;
+
+
+}
+
+
+#crayonborder{
+	text-align: center;
+	padding: 50px;
+	margin: 0 auto;
+	
+	background-color: #FFF;
+	border-style: solid;
+	border-radius: 50px;
+	border-width: 5px;
+	border-color:#6171ff ;
+
+
+}
+
+#crayonborder h3{
+	padding-bottom: 30px;
+	color: #6171ff;
+	}
+
+#colborder{
+	background-color: #FFF;
+	border-style: solid;
+	border-radius: 30px;
+	border-width: 5px;
+	padding: 2rem;
+	border-color:#6171ff ;
+}
+
+#winters {
+	margin-bottom: 100px;
+	color: #6171ff;
+
+
+}
+
+#crayonbox{
+	padding-bottom: 100px;
+}
+
+#crayonbox img {
+	border-radius: 30px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #6171FF;
+
+}
+
+
+
+
+
+
+
+/* Footer styles and rules */
+
+footer {
+	background-color: #6171ff;
+	
+	color: #fff;
+	
+	
+}
+
+footer h4 {
+	padding: 2rem;
+	font-family: "GT-Light";
+}
+
+
+
+.lilghost {
+	margin-left: 110px;
+	width: 200px;
+	height: auto;
+
+}
+
+.soclinks {
+	width: 96.5px;
+	height: 96.5px;
+	float: left;
+}
+
+.soclinksBG {
+	padding: 3px;
+	border-radius: 300px;
+	width: 100px;
+	height: 100px;
+	margin-right: 15px;
+
+}
+
+#partners {
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 0 5%;
+}
+
+#partners ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer li {
+	text-align: center;
+	font-family: 'Poppins';
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+
+
+
+#foot-links {
+	margin-top: 40px;
+}
+
+#foot-links li:first-child {
+	font-weight: 600;
+	padding-bottom: 30px;
+}
+
+#foot-links ul {
+	display: flex;
+	flex-direction: column;
+}
+
+#foot-links li {
+	text-align: left;
+}
+
+
+
+#socials {
+	display: flex;
+	flex-direction: row;
+}
+
+#legal {
+	text-align: right;
+}
+
+#legal span {
+	margin-left: 30px;
+}
+
+#bottom {
+	justify-content: space-between;
+	font-size: 12px;
+	margin-top: 40px;
+	color: antiquewhite;
+}
+
+
+
+@media screen and (max-width: 800px) {
+	#aboutstory {
+	text-align: left;
+	color: #161616;
+	background-color: ;
+	padding-top: 100px;
+	margin-bottom: 650px;
+	height: 600px;
+
+
+	
+}
+
+header ul {
+	display: none;
+}
+
+#ourstory {
+	text-align: left;
+	color: #161616;
+	background-color: ;
+	margin-bottom: 700px;
+	height: 400px;
+	
+}
+
+#seasonalbox {
+	display: grid;
+	grid-template-columns: repeat(2, 250px);
+	text-align: center;
+	height: 250px;
+	margin-bottom: 250px;
+	
+
+}
+
+#seasonalbox img {
+
+}
+
+#seasonal {
+	text-align: center;
+	color: #161616;
+	background-color: #FED8AC;
+	margin-bottom: 600px;
+	height: 1400px;
+	
+}
+
+#seasonalmenu {
+
+	background-color: #FED8AC;
+	height: 500px;
+	margin-bottom: 50px;
+
+
+}
+
+#mission {
+	text-align: left;
+	color: #161616;
+	
+	margin-bottom: 160px;
+	height: 800px;
+	background-color: #FED8AC;
+}
+
+#mailinglist {
+	text-align: center;
+	color: #161616;
+	background-color: lightgray;
+	height: 350px;
+	margin-bottom: -50px;
+	background-image: url("../Images/newsletter2-06.png");
+	background-size: cover;
+	
+}
+
+
+
+}
