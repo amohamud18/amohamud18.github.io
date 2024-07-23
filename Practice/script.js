@@ -16,3 +16,13 @@ document.addEventListener('mousemove', TrackCursor);
 function TrackCursor(evt) {
 	site_wide_cursor.style.transform = 'translate(${evt.clientX}px, ${evt.clientY}px)' ;
 } 
+
+$(window).scroll(function() {
+  sessionStorage.scrollTop = $(this).scrollTop();
+});
+
+$(document).ready(function() {
+  if (sessionStorage.scrollTop != "undefined") {
+    $(window).scrollTop(sessionStorage.scrollTop);
+  }
+});
